@@ -1,0 +1,15 @@
+/* Header styles */
+
+.logo {
+	font-family: 'Quicksand', sans-serif;
+	font-size: $font-size-xx-large;
+	color: $navy;
+	font-weight: $font-weight-bold;
+	padding: $padding-base * 0.5;
+
+	@media #{$mobile-small} {
+	   font-size: $font-size-large;
+	} 
+}
+
+

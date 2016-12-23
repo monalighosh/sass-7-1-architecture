@@ -1,0 +1,18 @@
+body {
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-size: $font-size-base;
+	color: $black;
+}
+
+h1 {
+	font-size: $font-size-x-large;
+	color: $h1-color;
+	padding: $padding-base;
+	font-weight: $font-weight-bold;
+}
+
+h2 {
+	@extend h1;
+	font-size: $font-size-large;
+	color: $h2-color;
+}

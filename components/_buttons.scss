@@ -1,0 +1,22 @@
+.button-buy {
+    background: $button-bg-color;
+    color: $button-font-color;
+    font-size: $font-size-large;
+    cursor: $cursor;
+    padding: $padding-button;
+    @include border(1px, 5px);
+    @include transition(0.5s, ease-out, 0.2s);
+
+    &:visited {
+        color: $link-visited-color;
+    }
+
+    &:hover {
+        color: $link-hover-color;
+    }
+}
+
+.button-more {
+    @extend .button-buy;
+    background: $white;
+}
